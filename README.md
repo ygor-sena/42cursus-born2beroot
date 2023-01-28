@@ -10,7 +10,7 @@
 
 ## Introduction
 
-This project introduces the student to the wonderful world of virtualization. It was possible to chose between `Debian` and `CentOS` to be set up in `VirtualBox`. By July 26th 2022, this project was done in `Debian` with its most recent stable release (v11.4) since it's easier for first-time travelers learning this topic and it receives a lot of updates and new features.
+This project introduces the student to the wonderful world of virtualization. It was possible to choose between `Debian` and `CentOS` to be set up in `VirtualBox`. By July 26th 2022, this project was done in `Debian` with its most recent stable release (v11.4) since it's easier for first-time travelers learning this topic and it receives a lot of updates and new features.
 
 For the bonus implementation, [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) was set up. It's a service that bans IPs after malicious signs, i.e. too many password failures.
 
@@ -48,35 +48,37 @@ For the bonus implementation, [fail2ban](https://www.fail2ban.org/wiki/index.php
 
 ## References
 
+- Books:
+  - SIQUEIRA, Luciano. Certificação LPI-1 101-102. Rio de Janeiro, 2015.
+  - SILBERSCHATZ, Abraham; GALVIN, Peter; GAGNE, Peter. Fundamentos de sistemas operacionais. 2015.
+
 - About Debian bugs:
-  - https://unix.stackexchange.com/questions/204371/debian-error-message-unable-to-find-lvm-volume-but-then-boots-successfully
+  - [Debian error message: "Unable to find LVM volume", but then boots successfully](https://unix.stackexchange.com/questions/204371/debian-error-message-unable-to-find-lvm-volume-but-then-boots-successfully) by Stack Exchange
 
 - About important concepts necessary to do the project:
-  - sudoer manual: https://www.sudo.ws/docs/man/1.8.14/sudoers.man/
-  - https://linuxhint.com/whatis_logical_volume_management/ e https://opensource.com/business/16/9/linux-users-guide-lvm
-  - O que é ModRewrite: https://www.seobility.net/en/wiki/Mod_Rewrite
-  - O que é SEO friendly? https://www.seobility.net/en/wiki/SEO-friendly_URLs
-  - O que é CPU Load average? https://community.tenable.com/s/article/What-is-CPU-Load-Average
-  - Como usar SCP: https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/
-  - Diferença entre apt e aptitude? https://www.tecmint.com/difference-between-apt-and-aptitude/
-  - https://www.sudo.ws/docs/man/1.8.14/sudoers.man/
-  - Como verificar autenticidade de uma uma imagem Debian: https://www.debian.org/CD/verify
-Sobre pontos de montagem: https://www.debian.org/releases/stable/amd64/ch06s03.en.html#di-partition e https://www.debian.org/releases/stable/amd64/apcs01.en.html
-  - Melhor site sobre Shell em português: https://aurelio.net/shell/
-  - Como usar crontab: https://linuxhandbook.com/crontab/
-  - Sobre lsblk, MAJ:MIN e dispositivos https://superuser.com/questions/778686/linux-lsblk-output
-  - Para que serve cada pasta e sistema de montagem: https://techencyclopedia.wordpress.com/2020/04/21/debian-10-manual-partition-for-boot-swap-root-home-tmp-srv-var-var-mail-var-log/ e https://tldp.org/HOWTO/Multi-Disk-HOWTO.html
-  - https://www.freecodecamp.org/news/types-of-hard-drives-sata-pata-scsi-and-more-2/
-  - Como verificar autenticidade de uma uma imagem Debian: https://www.debian.org/CD/verify
-  - Sobre pontos de montagem: https://www.debian.org/releases/stable/amd64/ch06s03.en.html#di-partition e https://www.debian.org/releases/stable/amd64/apcs01.en.html
+  - [Sudoer manual](https://www.sudo.ws/docs/man/1.8.14/sudoers.man/)
+  - [What is LVM (Logical Volume Management), and what are its Benefits?](https://linuxhint.com/whatis_logical_volume_management/) by Karim Buzdar.
+  - [A Linux user's guide to Logical Volume Management](https://opensource.com/business/16/9/linux-users-guide-lvm) by David Both
+  - [What is ModRewrite?](https://www.seobility.net/en/wiki/Mod_Rewrite) by Seobility Wiki.
+  - [What is SEO Friendly?](https://www.seobility.net/en/wiki/SEO-friendly_URLs) by Seobility Wiki.
+  - [What is CPU load average?](https://community.tenable.com/s/article/What-is-CPU-Load-Average) by Tenable Community.
+  - [How to Use SCP Command to Securely Transfer Files](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/) by Linuxize.
+  - [What is the real difference between apt and aptitude?](https://www.tecmint.com/difference-between-apt-and-aptitude/) by Gunjit Khera.
+  - Best Brazilian resource about shell: https://aurelio.net/shell/
+  - [Understanding Crontab in Linux With Examples](https://linuxhandbook.com/crontab/) by Christopher Murray.
+  - [Understanding lsblk output](https://superuser.com/questions/778686/linux-lsblk-output) by Stack Overflow.
+  - [Debian 10 Manual Partition for /boot, /swap, root, /home, /tmp, /srv, /var, /var/mail, /var/log](https://techencyclopedia.wordpress.com/2020/04/21/debian-10-manual-partition-for-boot-swap-root-home-tmp-srv-var-var-mail-var-log/) by Techencyclopedia.
+  - [Types of Hard Drives – SATA, PATA, SCSI, and SSD](https://www.freecodecamp.org/news/types-of-hard-drives-sata-pata-scsi-and-more-2/) by Kolade Chris.
+  - [About mounting points size](https://www.debian.org/releases/stable/amd64/ch06s03.en.html#di-partition) by Official Debian GNU/Linux Installation Guide.
   
 - Guides from other students that really helped:
-  - https://baigal.medium.com/born2beroot-e6e26dfb50ac
-  - https://githubmemory.com/repo/hanshazairi/42-born2beroot#setting-up-a-cron-job
-  - https://github.com/caroldaniel/42sp-cursus-born2beroot/blob/master/guides/CentOS-en.md#Passwd
+  - [Born2beroot: 42 school project](https://baigal.medium.com/born2beroot-e6e26dfb50ac) by Baigalmaa Baatar.
+  - [42cursus - Born2beroot](https://githubmemory.com/repo/hanshazairi/42-born2beroot#setting-up-a-cron-job) by hanshazairi.
+  - [CentOS Linux 8 Guide](https://github.com/caroldaniel/42sp-cursus-born2beroot/blob/master/guides/CentOS-en.md#Passwd) by [caroldaniel](https://github.com/caroldaniel).
 
 - About the bonus project:
-  - Como instalar as partições do bônus: https://www.youtube.com/watch?v=2w-2MX5QrQw
-  - Como instalar WordPress com Lighttpd Ubuntu 20.04: https://www.how2shout.com/linux/install-wordpress-on-lighttpd-web-server-ubuntu/ e https://www.atlantic.net/dedicated-server-hosting/how-to-install-wordpress-with-lighttpd-web-server-on-ubuntu-20-04/ e 
-  - Como resetar a senha do Maria DB: https://www.digitalocean.com/community/tutorials/how-to-reset-your-mysql-or-mariadb-root-password
-  - https://www.vivaolinux.com.br/artigo/Fail2ban-no-Debian-Instalacao-e-Configuracao
+  - [Born2beroot VB VM Installation (Bonus)](https://www.youtube.com/watch?v=2w-2MX5QrQw) by hanshazairi.
+  - [How to install WordPress on Lighttpd web server - Ubuntu 20.04/18.04](https://www.how2shout.com/linux/install-wordpress-on-lighttpd-web-server-ubuntu/) Heyan Maurya.
+  - [How to Install WordPress with Lighttpd Web Server on Ubuntu 20.04](https://www.atlantic.net/dedicated-server-hosting/how-to-install-wordpress-with-lighttpd-web-server-on-ubuntu-20-04/) by Hitesh Jethva.
+  - [How To Reset Your MySQL or MariaDB Root Password](https://www.digitalocean.com/community/tutorials/how-to-reset-your-mysql-or-mariadb-root-password) by Mateusz Papiernik.
+  - [Fail2ban no Debian: instalação e configuração](https://www.vivaolinux.com.br/artigo/Fail2ban-no-Debian-Instalacao-e-Configuracao) by [Diego Mendes Rodrigues](https://www.linkedin.com/in/diegomendesrodrigues/).
