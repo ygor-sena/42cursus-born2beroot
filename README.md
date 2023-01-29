@@ -55,7 +55,7 @@ For the bonus implementation, [fail2ban](https://www.fail2ban.org/wiki/index.php
 - About Debian bugs:
   - [Debian error message: "Unable to find LVM volume", but then boots successfully](https://unix.stackexchange.com/questions/204371/debian-error-message-unable-to-find-lvm-volume-but-then-boots-successfully) by Stack Exchange
 
-- About important concepts necessary to do the project:
+- About important necessary concepts to do the project:
   - [Sudoer manual](https://www.sudo.ws/docs/man/1.8.14/sudoers.man/)
   - [What is LVM (Logical Volume Management), and what are its Benefits?](https://linuxhint.com/whatis_logical_volume_management/) by Karim Buzdar.
   - [A Linux user's guide to Logical Volume Management](https://opensource.com/business/16/9/linux-users-guide-lvm) by David Both
